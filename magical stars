@@ -1,0 +1,19 @@
+remove characters if star is encountered 
+t=int(input())
+for i in range(t):
+    s=input()
+    li=[]
+    for i in range(len(s)):
+        if(s[i]!='*'):
+            li.append(s[i])
+        else:
+            li.pop()
+    for i in range(len(li)):
+        print(li[i],end='')
+    print()    
+input
+1
+Dinesh**reddy****
+
+output
+Diner
