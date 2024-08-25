@@ -1,0 +1,6 @@
+n=int(input())
+print(n+(n*n)+(n*n*n))
+input
+3
+output
+3+9+27=39
