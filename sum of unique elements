@@ -1,0 +1,13 @@
+n=int(input())
+li=list(map(int,input().split()))
+ans=[]
+sumi=0
+for i in range(len(li)):
+    if(li[i] not in ans):
+        ans.append(li[i])
+        sumi+=li[i]
+print(sumi)        
+output
+5
+1 4 2 2 4
+7
