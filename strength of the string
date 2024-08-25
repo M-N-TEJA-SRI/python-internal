@@ -1,0 +1,17 @@
+print the strength of the string as a=0,b=1,c=2,....
+t=int(input())
+for i in range(t):
+    name=input()
+    sumi=0
+    for i in range(len(name)):
+        sumi+=ord(name[i])-97
+    print(sumi)    
+input
+3
+abc
+def
+xyz
+output
+3
+12
+72
