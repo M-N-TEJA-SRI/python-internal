@@ -1,0 +1,18 @@
+teacher considers herself as lucky if the variance of highest and lowest marks is divisible by 3 then print lucky else unlucky 
+t=int(input())
+for  i in range(t):
+    n=int(input())
+    li=list(map(int,input().split()))
+    li.sort() 
+    if((li[-1]-li[0])%3==0):
+        print('Lucky')
+    else:
+        print('unlucky')  
+output
+2
+9
+474 60 569 64 718 958 522 964 825 
+7
+761 187 181 511 75 202 927 
+unlucky
+lucky
